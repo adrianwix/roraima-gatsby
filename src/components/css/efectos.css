@@ -1,0 +1,8 @@
+#xz {
+  animation-duration: 1.5s;
+  animation-delay: 0s;
+  /* animation-iteration-count: infinite; */
+  -moz-animation-duration: 1.5s;
+  -moz-animation-delay: 0s;
+  /* animation-iteration-count: infinite; */
+}

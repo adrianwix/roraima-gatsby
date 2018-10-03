@@ -1,8 +1,27 @@
 import React from 'react'
+import { withPrefix } from 'gatsby'
 
 export default () => {
   return (
-    <div>
+    <div className="row justify-content-md-center">
+      <div className="col-12 col-md-auto borderR">
+        <a href="home.php">
+          <img src={withPrefix('img/roraimafooter.png')} alt="Roraima" />
+        </a>
+        <p>
+          <br />
+          Email Us:
+          <br />
+          erujano@flyroraima.com
+          <br />
+          <br />
+          Virtual HQ:
+          <br />
+          Simón Bolívar International Airport,
+          <br />
+          Vargas, Venezuela (CCS/SVMI)
+        </p>
+      </div>
       <div className="col-sm-4 col-lg-2">
         <a href="home.php#services">
           <h3>SERVICES</h3>

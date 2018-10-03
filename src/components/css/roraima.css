@@ -1,0 +1,465 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\000034}}
+section .cover {
+  margin: 100px 0 0 0;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\000037}}
+section .btn-outline-black {
+  background-color: #fff;
+  border-color: #000;
+  border-radius: 20px;
+  border-width: 2px;
+  color: #000;
+  margin-top: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000314}}
+  section .btn-outline-black:hover {
+    background-color: #000;
+    color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000317}}
+section div.separador {
+  background-color: #730808;
+  height: 10px;
+  margin-bottom: 50px;
+  width: 115px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000322}}
+section div.separador-tucan {
+  background-color: #002f56;
+  height: 10px;
+  margin-bottom: 50px;
+  width: 115px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000327}}
+section .stats-mw {
+  max-width: 1000px;
+  margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000330}}
+section .stats {
+  background: #bfbfbf;
+  padding: 40px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000333}}
+  section .stats .stat-cell {
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000335}}
+    section .stats .stat-cell .big-p {
+      font-size: 3rem;
+      color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000338}}
+    section .stats .stat-cell .small-p {
+      font-size: 1.5rem;
+      color: #494949; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000341}}
+    section .stats .stat-cell .vertical-bar {
+      height: 70px;
+      width: 3px;
+      background: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000345}}
+    section .stats .stat-cell::after {
+      content: "";
+      position: absolute;
+      top: calc(50% - 36px);
+      right: 0;
+      height: 70px;
+      width: 3px;
+      background: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000354}}
+    section .stats .stat-cell:nth-child(4)::after {
+      content: none; }
+    @media (max-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000357}}
+      section .stats .stat-cell::after {
+        content: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000359}}
+section .social {
+  display: flex; }
+@media (max-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000362}}
+  section .social {
+    display: none; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_header\.sass}line{font-family:\000032}}
+header nav {
+  background: rgba(20, 20, 20, 0.65) !important;
+  padding: 0 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_header\.sass}line{font-family:\000035}}
+  header nav .navbar-brand {
+    padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_header\.sass}line{font-family:\000037}}
+    header nav .navbar-brand .roraimalogo {
+      background: #fff;
+      display: flex;
+      height: 100px;
+      justify-content: flex-end;
+      margin: -8px 0;
+      width: 200px; }
+      @media (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_header\.sass}line{font-family:\000037}}
+        header nav .navbar-brand .roraimalogo {
+          width: auto; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_header\.sass}line{font-family:\0000316}}
+      header nav .navbar-brand .roraimalogo img {
+        flex: 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_header\.sass}line{font-family:\0000318}}
+  header nav .navbar-nav {
+    width: 100%;
+    justify-content: flex-end; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_header\.sass}line{font-family:\0000321}}
+    header nav .navbar-nav .nav-item {
+      font-size: 14px; }
+      @media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_header\.sass}line{font-family:\0000321}}
+        header nav .navbar-nav .nav-item {
+          width: 16.6%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_header\.sass}line{font-family:\0000325}}
+      header nav .navbar-nav .nav-item .nav-link {
+        border-top: 1px solid #fff;
+        color: #fff !important;
+        margin: 0 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_header\.sass}line{font-family:\0000329}}
+        header nav .navbar-nav .nav-item .nav-link:hover {
+          border-top: 2px solid #3d9be9;
+          color: #3d9be9 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_header\.sass}line{font-family:\0000332}}
+      header nav .navbar-nav .nav-item .dropdown-menu {
+        background: #2e2d2d !important;
+        padding: 5px 10px 0 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_header\.sass}line{font-family:\0000335}}
+        header nav .navbar-nav .nav-item .dropdown-menu a.dropdown-item {
+          border-top: 1px solid #fff !important;
+          color: #fff !important;
+          font-size: 14px;
+          padding: 5px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_header\.sass}line{font-family:\0000340}}
+          header nav .navbar-nav .nav-item .dropdown-menu a.dropdown-item:hover {
+            background: none;
+            border-top: 2px solid #3d9be9 !important;
+            color: #3d9be9 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_footer\.sass}line{font-family:\000031}}
+#footer {
+  background: #2f2e2e;
+  color: #fff;
+  padding: 10px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_footer\.sass}line{font-family:\000036}}
+  #footer .borderR {
+    border-right: 2px solid #757575; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_footer\.sass}line{font-family:\000038}}
+  #footer col {
+    margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_footer\.sass}line{font-family:\0000310}}
+  #footer h3 {
+    font-size: 17px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_footer\.sass}line{font-family:\0000312}}
+  #footer a {
+    color: #fff;
+    font-size: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_footer\.sass}line{font-family:\0000315}}
+    #footer a:hover {
+      color: #757575;
+      text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_home\.sass}line{font-family:\000032}}
+#home .container-fluid {
+  padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_home\.sass}line{font-family:\000034}}
+#home .cover {
+  background: no-repeat url("../img/home/home.jpg");
+  background-size: cover;
+  padding: 180px 10px 10px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_home\.sass}line{font-family:\000038}}
+  #home .cover h3 {
+    color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_home\.sass}line{font-family:\0000310}}
+  #home .cover img.logo {
+    margin-left: calc(50% - 270px); }
+  @media (max-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_home\.sass}line{font-family:\0000313}}
+    #home .cover img.logo {
+      max-width: 100%;
+      margin: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_home\.sass}line{font-family:\0000316}}
+#home h2 {
+  font-size: 50px;
+  margin-top: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_home\.sass}line{font-family:\0000319}}
+#home .thecompany {
+  background: #F7F7F7;
+  padding-left: 200px;
+  padding-right: 70px; }
+  @media (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_home\.sass}line{font-family:\0000319}}
+    #home .thecompany {
+      padding: 0 20px; } }
+  @media (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_home\.sass}line{font-family:\0000319}}
+    #home .thecompany {
+      padding: 0 40px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_home\.sass}line{font-family:\0000328}}
+#home .col-3 .gris {
+  background: #f7f7f7;
+  height: 260px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_home\.sass}line{font-family:\0000331}}
+#home .home1 {
+  overflow: hidden;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_home\.sass}line{font-family:\0000334}}
+  #home .home1 img {
+    left: -630px;
+    position: absolute; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_staff\.sass}line{font-family:\000032}}
+#staff h3 {
+  font-size: 50px;
+  margin-top: 45px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_staff\.sass}line{font-family:\000035}}
+#staff p {
+  margin-top: 45px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_staff\.sass}line{font-family:\000038}}
+#staff .row h4 {
+  margin-bottom: 20px;
+  margin-top: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_timetable\.sass}line{font-family:\000032}}
+#timetable table {
+  font-size: 20px;
+  margin-bottom: 54px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\000034}}
+section .cover {
+  margin: 100px 0 0 0;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\000037}}
+section .btn-outline-black {
+  background-color: #fff;
+  border-color: #000;
+  border-radius: 20px;
+  border-width: 2px;
+  color: #000;
+  margin-top: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000314}}
+  section .btn-outline-black:hover {
+    background-color: #000;
+    color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000317}}
+section div.separador {
+  background-color: #730808;
+  height: 10px;
+  margin-bottom: 50px;
+  width: 115px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000322}}
+section div.separador-tucan {
+  background-color: #002f56;
+  height: 10px;
+  margin-bottom: 50px;
+  width: 115px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000327}}
+section .stats-mw {
+  max-width: 1000px;
+  margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000330}}
+section .stats {
+  background: #bfbfbf;
+  padding: 40px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000333}}
+  section .stats .stat-cell {
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000335}}
+    section .stats .stat-cell .big-p {
+      font-size: 3rem;
+      color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000338}}
+    section .stats .stat-cell .small-p {
+      font-size: 1.5rem;
+      color: #494949; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000341}}
+    section .stats .stat-cell .vertical-bar {
+      height: 70px;
+      width: 3px;
+      background: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000345}}
+    section .stats .stat-cell::after {
+      content: "";
+      position: absolute;
+      top: calc(50% - 36px);
+      right: 0;
+      height: 70px;
+      width: 3px;
+      background: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000354}}
+    section .stats .stat-cell:nth-child(4)::after {
+      content: none; }
+    @media (max-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000357}}
+      section .stats .stat-cell::after {
+        content: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000359}}
+section .social {
+  display: flex; }
+@media (max-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_misc\.sass}line{font-family:\0000362}}
+  section .social {
+    display: none; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_carousel\.sass}line{font-family:\000032}}
+section .fa-angle-left {
+  color: white;
+  left: 10px;
+  position: absolute;
+  top: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_carousel\.sass}line{font-family:\000037}}
+section .left-carousel {
+  height: 420px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 200px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_carousel\.sass}line{font-family:\0000313}}
+section .left-carousel:hover .fa-angle-left {
+  color: #8e8e8e; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_carousel\.sass}line{font-family:\0000315}}
+section .fa-angle-right {
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_carousel\.sass}line{font-family:\0000320}}
+section .right-carousel {
+  height: 420px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 200px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_carousel\.sass}line{font-family:\0000326}}
+section .right-carousel:hover .fa-angle-right {
+  color: #8e8e8e; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_carousel\.sass}line{font-family:\0000329}}
+section .carousel-inner .carousel-item {
+  height: 420px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_carousel\.sass}line{font-family:\0000334}}
+  section .carousel-inner .carousel-item .carousel-caption {
+    background: rgba(50, 50, 49, 0.61);
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_carousel\.sass}line{font-family:\0000341}}
+    section .carousel-inner .carousel-item .carousel-caption h3 {
+      font-size: 20px;
+      margin: 0 0 8px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_carousel\.sass}line{font-family:\0000344}}
+    section .carousel-inner .carousel-item .carousel-caption p {
+      font-size: 14px;
+      margin: 0 0 8px 0;
+      padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_carousel\.sass}line{font-family:\0000348}}
+      section .carousel-inner .carousel-item .carousel-caption p:last-child {
+        margin: 0; }
+@media (max-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_carousel\.sass}line{font-family:\0000351}}
+  section .carousel-inner .carousel-item {
+    height: 260px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_fleet\.sass}line{font-family:\000031}}
+.fleet {
+  overflow: hidden; }
+  @media (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/sass\/_fleet\.sass}line{font-family:\000033}}
+    .fleet .text-md-center {
+      text-align: center; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/roraima\.sass}line{font-family:\0000311}}
+section {
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/roraima\.sass}line{font-family:\0000313}}
+  section div.container {
+    max-width: 980px !important;
+    padding-bottom: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/roraima\.sass}line{font-family:\0000316}}
+  section h2 {
+    color: #3e3e3e;
+    font-size: 50px;
+    margin-top: 1.5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/roraima\.sass}line{font-family:\0000320}}
+  section h3 {
+    font-size: 48px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/roraima\.sass}line{font-family:\0000322}}
+  section .h3fleet {
+    margin-top: 3em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/roraima\.sass}line{font-family:\0000324}}
+  section .serviceh3 {
+    font-size: 1.75em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/roraima\.sass}line{font-family:\0000326}}
+  section .mth3 {
+    margin-top: 2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/roraima\.sass}line{font-family:\0000328}}
+  section h4 {
+    font-size: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/roraima\.sass}line{font-family:\0000330}}
+  section h5 {
+    color: #8b0000;
+    font-size: 1.7em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/roraima\.sass}line{font-family:\0000333}}
+  section h6 {
+    font-size: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/roraima\.sass}line{font-family:\0000335}}
+  section hr {
+    background: #000;
+    color: #000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/roraima\.sass}line{font-family:\0000338}}
+  section a:hover {
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/roraima\.sass}line{font-family:\0000340}}
+  section ul {
+    font-size: 17px;
+    list-style: none;
+    padding-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/roraima\.sass}line{font-family:\0000344}}
+    section ul li {
+      font-size: inherit; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/roraima\.sass}line{font-family:\0000346}}
+      section ul li .rc {
+        color: #730808;
+        font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/roraima\.sass}line{font-family:\0000349}}
+  section .specs {
+    background: #900b0b;
+    line-height: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/roraima\.sass}line{font-family:\0000352}}
+    section .specs h4 {
+      color: #fff;
+      font-size: 25px;
+      margin: 10px 0 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/roraima\.sass}line{font-family:\0000356}}
+    section .specs p {
+      color: #fff;
+      font-size: 17px;
+      margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/roraima\.sass}line{font-family:\0000360}}
+  section .specs-tucan {
+    background: #002f56;
+    line-height: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/roraima\.sass}line{font-family:\0000363}}
+    section .specs-tucan h4 {
+      color: #fff;
+      font-size: 25px;
+      margin: 10px 0 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/roraima\.sass}line{font-family:\0000367}}
+    section .specs-tucan p {
+      color: #fff;
+      font-size: 17px;
+      margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/roraima\.sass}line{font-family:\0000371}}
+  section .p {
+    font-size: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/roraima\.sass}line{font-family:\0000373}}
+  section .centrar {
+    align-items: center;
+    display: flex;
+    height: 210px;
+    justify-content: center;
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/roraima\.sass}line{font-family:\0000379}}
+  section .borderRcargo {
+    border-right: 1px solid #000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/RoraimaEnglish\/css\/roraima\.sass}line{font-family:\0000381}}
+  section .rowtucanlogo {
+    margin: 4em 0 !important; }
+
+/*# sourceMappingURL=roraima.css.map */

@@ -1,0 +1,63 @@
+section	
+  .autoh
+    // height: 530px
+  .cover
+    margin: 100px 0 0 0
+    width: 100%
+  .btn-outline-black
+    background-color: #fff
+    border-color: #000
+    border-radius: 20px
+    border-width: 2px
+    color: #000
+    margin-top: 40px
+    &:hover
+      background-color: #000
+      color: #fff
+  div.separador
+    background-color: #730808
+    height: 10px
+    margin-bottom: 50px
+    width: 115px
+  div.separador-tucan
+    background-color: #002f56
+    height: 10px
+    margin-bottom: 50px
+    width: 115px
+  .stats-mw
+    max-width: 1000px
+    margin: 0 auto
+  .stats
+    background: #bfbfbf
+    padding: 40px 0
+    .stat-cell
+      text-align: center
+      .big-p
+        font-size: 3rem
+        color: #fff
+      .small-p
+        font-size: 1.5rem
+        color: #494949
+      .vertical-bar
+        height: 70px
+        width: 3px
+        background: #fff
+      &::after
+        content: ""
+        position: absolute
+        top: calc(50% - 36px)
+        right: 0
+        height: 70px
+        width: 3px
+        background: #fff
+      &:nth-child(4)
+        &::after
+          content: none
+      @media (max-width: $grid-breakpoints-sm)
+        &::after
+          content: none
+  .social
+    display: flex
+  @media (max-width: $grid-breakpoints-sm)  
+    .social
+      display: none
