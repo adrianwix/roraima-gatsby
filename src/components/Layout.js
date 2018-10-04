@@ -8,13 +8,14 @@ import Footer from './Footer'
 // import './layout.css'
 import './css/bootstrap.css'
 import './css/roraima.css'
+// import SiteScripts from './SiteScripts'
 
 // import './js/fontawesome-all.min.js'
 // import 'jquery'
 // import '@fortawesome/fontawesome-free/js/fontawesome'
 // import '@fortawesome/fontawesome-free/css/fontawesome.css'
 // import './js/popper.min'
-// import 'bootstrap'
+// import 'bootstrap/dist/js/bootstrap'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -50,6 +51,7 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
         <div>{children}</div>
         <Footer />
+        {/*<SiteScripts/>*/}
       </>
     )}
   />
