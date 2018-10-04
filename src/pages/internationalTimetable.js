@@ -21,7 +21,7 @@ const InternationalTimetable = () => (
           <table className="table text-center animated fadeInLeft">
             <thead>
               <tr style={{ background: '#900B0B', color: 'white' }}>
-                <th colspan="5">International Flights from Caracas - CCS</th>
+                <th colSpan="5">International Flights from Caracas - CCS</th>
               </tr>
               <tr style={{ background: '#3E3E3E', color: 'white' }}>
                 <th>To</th>
@@ -73,7 +73,7 @@ const InternationalTimetable = () => (
           <table className="table text-center animated fadeInLeft">
             <thead>
               <tr style={{ background: '#900B0B', color: 'white' }}>
-                <th colspan="5">Flights from Sint Maarten - SXM</th>
+                <th colSpan="5">Flights from Sint Maarten - SXM</th>
               </tr>
               <tr style={{ background: '#3E3E3E', color: 'white' }}>
                 <th>To</th>
@@ -97,7 +97,7 @@ const InternationalTimetable = () => (
           <table className="table text-center animated fadeInLeft">
             <thead>
               <tr style={{ background: '#900B0B', color: 'white' }}>
-                <th colspan="5">Flights from Costa Rica - SJO</th>
+                <th colSpan="5">Flights from Costa Rica - SJO</th>
               </tr>
               <tr style={{ background: '#3E3E3E', color: 'white' }}>
                 <th>To</th>
@@ -121,7 +121,7 @@ const InternationalTimetable = () => (
           <table className="table text-center animated fadeInLeft">
             <thead>
               <tr style={{ background: '#900B0B', color: 'white' }}>
-                <th colspan="5">Flights from Panamá - PTY</th>
+                <th colSpan="5">Flights from Panamá - PTY</th>
               </tr>
               <tr style={{ background: '#3E3E3E', color: 'white' }}>
                 <th>To</th>
@@ -145,7 +145,7 @@ const InternationalTimetable = () => (
           <table className="table text-center animated fadeInLeft">
             <thead>
               <tr style={{ background: '#900B0B', color: 'white' }}>
-                <th colspan="5">Flights from Chile - SCL</th>
+                <th colSpan="5">Flights from Chile - SCL</th>
               </tr>
               <tr style={{ background: '#3E3E3E', color: 'white' }}>
                 <th>To</th>
@@ -169,7 +169,7 @@ const InternationalTimetable = () => (
           <table className="table text-center animated fadeInLeft">
             <thead>
               <tr style={{ background: '#900B0B', color: 'white' }}>
-                <th colspan="5">Flights from Canada - YYZ</th>
+                <th colSpan="5">Flights from Canada - YYZ</th>
               </tr>
               <tr style={{ background: '#3E3E3E', color: 'white' }}>
                 <th>To</th>

@@ -1,13 +1,18 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from 'gatsby'
+import { StaticQuery, graphql, withPrefix } from 'gatsby'
 
 import Header from './Header'
 import Footer from './Footer'
 // import './layout.css'
 import './css/bootstrap.css'
 import './css/roraima.css'
+
+import './js/fontawesome-all.min.js'
+import 'jquery'
+// import './js/popper.min'
+import 'bootstrap'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -30,7 +35,7 @@ const Layout = ({ children }) => (
           ]}
         >
           <html lang="en" />
-          <link rel="icon" href="favicom.png" />
+          <link rel="icon" href={withPrefix("img&favicom.png")} />
           {/* <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
           <link rel="stylesheet" type="text/css" href="css/roraima.css" />
           <link rel="stylesheet" type="text/css" href="css/animate.min.css" />

@@ -2,7 +2,7 @@ import React from 'react'
 import FooterLinks from './FooterLinks'
 import Copyright from './Copyright'
 
-export default () => {
+const Footer = () => {
   return (
     <section id="footer">
       <div className="container-fluid">
@@ -12,3 +12,5 @@ export default () => {
     </section>
   )
 }
+
+export default Footer;
