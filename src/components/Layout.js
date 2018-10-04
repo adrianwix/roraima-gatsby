@@ -30,12 +30,12 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'description', content: 'Roraima Virtual Airline' },
+            { name: 'keywords', content: 'roraima, airline' },
           ]}
         >
           <html lang="en" />
-          <link rel="icon" href={withPrefix("img&favicom.png")} />
+          <link rel="icon" href={withPrefix("img/favicom.png")} />
           {/* <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
           <link rel="stylesheet" type="text/css" href="css/roraima.css" />
           <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
