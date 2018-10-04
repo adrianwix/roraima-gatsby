@@ -9,8 +9,10 @@ import Footer from './Footer'
 import './css/bootstrap.css'
 import './css/roraima.css'
 
-import './js/fontawesome-all.min.js'
+// import './js/fontawesome-all.min.js'
 import 'jquery'
+// import '@fortawesome/fontawesome-free/js/fontawesome'
+// import '@fortawesome/fontawesome-free/css/fontawesome.css'
 // import './js/popper.min'
 import 'bootstrap'
 
