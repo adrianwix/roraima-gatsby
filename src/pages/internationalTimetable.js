@@ -20,10 +20,16 @@ const InternationalTimetable = () => (
 
           <table className="table text-center">
             <thead>
-              <tr data-aos="fade-left"style={{ background: '#900B0B', color: 'white' }}>
+              <tr
+                data-aos="fade-left"
+                style={{ background: '#900B0B', color: 'white' }}
+              >
                 <th colSpan="5">International Flights from Caracas - CCS</th>
               </tr>
-              <tr data-aos="fade-left" style={{ background: '#3E3E3E', color: 'white' }}>
+              <tr
+                data-aos="fade-left"
+                style={{ background: '#3E3E3E', color: 'white' }}
+              >
                 <th>To</th>
                 <th>Flight Nº</th>
                 <th>Days</th>
@@ -31,7 +37,10 @@ const InternationalTimetable = () => (
                 <th>ETA</th>
               </tr>
             </thead>
-            <tbody data-aos="fade-left" style={{ background: '#BFBFBF', color: '#666464' }}>
+            <tbody
+              data-aos="fade-left"
+              style={{ background: '#BFBFBF', color: '#666464' }}
+            >
               <tr>
                 <td>Sint Maarten</td>
                 <td>RX715</td>
@@ -72,10 +81,16 @@ const InternationalTimetable = () => (
 
           <table className="table text-center">
             <thead>
-              <tr data-aos="fade-left" style={{ background: '#900B0B', color: 'white' }}>
+              <tr
+                data-aos="fade-left"
+                style={{ background: '#900B0B', color: 'white' }}
+              >
                 <th colSpan="5">Flights from Sint Maarten - SXM</th>
               </tr>
-              <tr data-aos="fade-left" style={{ background: '#3E3E3E', color: 'white' }}>
+              <tr
+                data-aos="fade-left"
+                style={{ background: '#3E3E3E', color: 'white' }}
+              >
                 <th>To</th>
                 <th>Flight Nº</th>
                 <th>Days</th>
@@ -83,7 +98,10 @@ const InternationalTimetable = () => (
                 <th>ETA</th>
               </tr>
             </thead>
-            <tbody data-aos="fade-left" style={{ background: '#BFBFBF', color: '#666464' }}>
+            <tbody
+              data-aos="fade-left"
+              style={{ background: '#BFBFBF', color: '#666464' }}
+            >
               <tr>
                 <td>Caracas</td>
                 <td>RX716</td>
@@ -96,10 +114,16 @@ const InternationalTimetable = () => (
 
           <table className="table text-center">
             <thead>
-              <tr data-aos="fade-left" style={{ background: '#900B0B', color: 'white' }}>
+              <tr
+                data-aos="fade-left"
+                style={{ background: '#900B0B', color: 'white' }}
+              >
                 <th colSpan="5">Flights from Costa Rica - SJO</th>
               </tr>
-              <tr data-aos="fade-left" style={{ background: '#3E3E3E', color: 'white' }}>
+              <tr
+                data-aos="fade-left"
+                style={{ background: '#3E3E3E', color: 'white' }}
+              >
                 <th>To</th>
                 <th>Flight Nº</th>
                 <th>Days</th>
@@ -107,7 +131,10 @@ const InternationalTimetable = () => (
                 <th>ETA</th>
               </tr>
             </thead>
-            <tbody data-aos="fade-left" style={{ background: '#BFBFBF', color: '#666464' }}>
+            <tbody
+              data-aos="fade-left"
+              style={{ background: '#BFBFBF', color: '#666464' }}
+            >
               <tr>
                 <td>Caracas</td>
                 <td>RX756</td>
@@ -120,10 +147,16 @@ const InternationalTimetable = () => (
 
           <table className="table text-center">
             <thead>
-              <tr data-aos="fade-left" style={{ background: '#900B0B', color: 'white' }}>
+              <tr
+                data-aos="fade-left"
+                style={{ background: '#900B0B', color: 'white' }}
+              >
                 <th colSpan="5">Flights from Panamá - PTY</th>
               </tr>
-              <tr data-aos="fade-left" style={{ background: '#3E3E3E', color: 'white' }}>
+              <tr
+                data-aos="fade-left"
+                style={{ background: '#3E3E3E', color: 'white' }}
+              >
                 <th>To</th>
                 <th>Flight Nº</th>
                 <th>Days</th>
@@ -131,7 +164,10 @@ const InternationalTimetable = () => (
                 <th>ETA</th>
               </tr>
             </thead>
-            <tbody data-aos="fade-left" style={{ background: '#BFBFBF', color: '#666464' }}>
+            <tbody
+              data-aos="fade-left"
+              style={{ background: '#BFBFBF', color: '#666464' }}
+            >
               <tr>
                 <td>Caracas</td>
                 <td>RX706</td>
@@ -144,10 +180,16 @@ const InternationalTimetable = () => (
 
           <table className="table text-center">
             <thead>
-              <tr data-aos="fade-left" style={{ background: '#900B0B', color: 'white' }}>
+              <tr
+                data-aos="fade-left"
+                style={{ background: '#900B0B', color: 'white' }}
+              >
                 <th colSpan="5">Flights from Chile - SCL</th>
               </tr>
-              <tr data-aos="fade-left" style={{ background: '#3E3E3E', color: 'white' }}>
+              <tr
+                data-aos="fade-left"
+                style={{ background: '#3E3E3E', color: 'white' }}
+              >
                 <th>To</th>
                 <th>Flight Nº</th>
                 <th>Days</th>
@@ -155,7 +197,10 @@ const InternationalTimetable = () => (
                 <th>ETA</th>
               </tr>
             </thead>
-            <tbody data-aos="fade-left" style={{ background: '#BFBFBF', color: '#666464' }}>
+            <tbody
+              data-aos="fade-left"
+              style={{ background: '#BFBFBF', color: '#666464' }}
+            >
               <tr>
                 <td>Caracas</td>
                 <td>RX726</td>
@@ -168,10 +213,16 @@ const InternationalTimetable = () => (
 
           <table className="table text-center">
             <thead>
-              <tr data-aos="fade-left" style={{ background: '#900B0B', color: 'white' }}>
+              <tr
+                data-aos="fade-left"
+                style={{ background: '#900B0B', color: 'white' }}
+              >
                 <th colSpan="5">Flights from Canada - YYZ</th>
               </tr>
-              <tr data-aos="fade-left" style={{ background: '#3E3E3E', color: 'white' }}>
+              <tr
+                data-aos="fade-left"
+                style={{ background: '#3E3E3E', color: 'white' }}
+              >
                 <th>To</th>
                 <th>Flight Nº</th>
                 <th>Days</th>
@@ -179,7 +230,10 @@ const InternationalTimetable = () => (
                 <th>ETA</th>
               </tr>
             </thead>
-            <tbody data-aos="fade-left" style={{ background: '#BFBFBF', color: '#666464' }}>
+            <tbody
+              data-aos="fade-left"
+              style={{ background: '#BFBFBF', color: '#666464' }}
+            >
               <tr>
                 <td>Caracas</td>
                 <td>RX736</td>

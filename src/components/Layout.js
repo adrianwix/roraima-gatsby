@@ -41,10 +41,6 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
           <link rel="icon" href={withPrefix("img/favicom.png")} />
-          {/* <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-          <link rel="stylesheet" type="text/css" href="css/roraima.css" />
-          <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
-          <link rel="stylesheet" type="text/css" href="css/efectos.css" /> */}
           <link
             href="https://fonts.googleapis.com/css?family=Montserrat:400,500"
             rel="stylesheet"

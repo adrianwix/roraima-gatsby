@@ -384,10 +384,7 @@ const Fleet = () => (
               </div>
             </div>
 
-            <div
-              data-aos="fade-left"
-              className="col-md-4 text-md-center"
-            >
+            <div data-aos="fade-left" className="col-md-4 text-md-center">
               <div className="specs">
                 <h4 className="text-center">
                   <strong>787-9 SPECS</strong>
@@ -475,10 +472,7 @@ const Fleet = () => (
               </div>
             </div>
 
-            <div
-              data-aos="fade-left"
-              className="col-md-4 text-md-center"
-            >
+            <div data-aos="fade-left" className="col-md-4 text-md-center">
               <div className="specs">
                 <h4 className="text-center">
                   <strong>737 MAX 8 SPECS</strong>

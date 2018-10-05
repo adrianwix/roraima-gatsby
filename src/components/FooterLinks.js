@@ -75,7 +75,7 @@ const FooterLinks = () => {
         <a href="https://www.facebook.com/RoraimaVA/">Facebook</a>
         <br />
         <br />
-        <a href={withPrefix("/privacy/")}>
+        <a href={withPrefix("/privacy-and-policy/")}>
           <h3>PRIVACY AND POLICY</h3>
         </a>
       </div>

@@ -36,14 +36,19 @@ const GlobalOne = () => (
           </p>
           <br />
 
-          <h3 data-aos="fade-left" className="text-center">PARTNER AIRLINES</h3>
+          <h3 data-aos="fade-left" className="text-center">
+            PARTNER AIRLINES
+          </h3>
           <div className="separador mx-auto" />
 
           <div
             className="row justify-content-center"
             style={{ margin: '6rem 0' }}
           >
-            <div data-aos="fade-left" className="col-xs-12 col-sm-6 col-md-3 my-4">
+            <div
+              data-aos="fade-left"
+              className="col-xs-12 col-sm-6 col-md-3 my-4"
+            >
               <a
                 href="http://arabian.aero/"
                 rel="noopener noreferrer"
@@ -56,7 +61,10 @@ const GlobalOne = () => (
                 />
               </a>
             </div>
-            <div data-aos="fade-left" className="col-xs-12 col-sm-6 col-md-3 my-4">
+            <div
+              data-aos="fade-left"
+              className="col-xs-12 col-sm-6 col-md-3 my-4"
+            >
               <a
                 href="http://www.flycubev.com/coming-soon/"
                 rel="noopener noreferrer"
@@ -69,7 +77,10 @@ const GlobalOne = () => (
                 />
               </a>
             </div>
-            <div data-aos="fade-left" className="col-xs-12 col-sm-6 col-md-3 my-4">
+            <div
+              data-aos="fade-left"
+              className="col-xs-12 col-sm-6 col-md-3 my-4"
+            >
               <a
                 href="http://www.flyeurobelgian.com/"
                 rel="noopener noreferrer"
@@ -82,7 +93,10 @@ const GlobalOne = () => (
                 />
               </a>
             </div>
-            <div data-aos="fade-left" className="col-xs-12 col-sm-6 col-md-3 my-4">
+            <div
+              data-aos="fade-left"
+              className="col-xs-12 col-sm-6 col-md-3 my-4"
+            >
               <a
                 href="https://www.fly-ocean.net/INT/"
                 rel="noopener noreferrer"
@@ -95,7 +109,10 @@ const GlobalOne = () => (
                 />
               </a>
             </div>
-            <div data-aos="fade-left" className="col-xs-12 col-sm-6 col-md-3 my-4">
+            <div
+              data-aos="fade-left"
+              className="col-xs-12 col-sm-6 col-md-3 my-4"
+            >
               <a
                 href="http://flycloud9.org/airline.php"
                 rel="noopener noreferrer"
@@ -108,7 +125,10 @@ const GlobalOne = () => (
                 />
               </a>
             </div>
-            <div data-aos="fade-left" className="col-xs-12 col-sm-6 col-md-3 my-4">
+            <div
+              data-aos="fade-left"
+              className="col-xs-12 col-sm-6 col-md-3 my-4"
+            >
               <a
                 href="https://ariaairways.org/home/"
                 rel="noopener noreferrer"

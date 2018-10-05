@@ -106,10 +106,7 @@ const RoraimaCargo = () => (
                 </a>
               </div>
             </div>
-            <div
-              data-aos="fade-left"
-              className="col-md-4 text-center"
-            >
+            <div data-aos="fade-left" className="col-md-4 text-center">
               <div className="specs">
                 <h4 className="text-center">
                   <strong>777-200F SPECS</strong>
@@ -162,9 +159,7 @@ const RoraimaCargo = () => (
                 src={withPrefix('img/roraima-cargo/logoROv2-CARGO.png')}
                 alt="Roraima Cargo Logo"
               />
-              <p className="p mt-2">
-                Roraima Cargo Operations and Timetables{' '}
-              </p>
+              <p className="p mt-2">Roraima Cargo Operations and Timetables </p>
               <h5 className="animated fadeInLeft">Coming Soon</h5>
             </div>
           </div>

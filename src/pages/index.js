@@ -10,11 +10,11 @@ const IndexPage = () => (
         <div className="cover autoh">
           <img
             className="logo"
-            src={withPrefix("img/home/welcome.png")}
+            src={withPrefix('img/home/welcome.png')}
             alt="Roraima"
           />
           <div className="d-block text-center">
-            <a href={withPrefix("#services")}>
+            <a href={withPrefix('#services')}>
               <i
                 className="fas fa-angle-down fa-5x"
                 style={{ color: 'white' }}
@@ -35,10 +35,13 @@ const IndexPage = () => (
             </div>
 
             <div className="row pb-3 mb-4 justify-content-center">
-              <div data-aos="fade-left" className="col-sm-6 col-md-4 col-lg-3 px-4">
+              <div
+                data-aos="fade-left"
+                className="col-sm-6 col-md-4 col-lg-3 px-4"
+              >
                 <img
                   className="img-fluid w-100 rounded"
-                  src={withPrefix("img/home/INTERNATIONAL-Thumbnail.jpg")}
+                  src={withPrefix('img/home/INTERNATIONAL-Thumbnail.jpg')}
                   alt="International Commercial Flight"
                 />
                 <div className="gris d-flex flex-column align-items-end p-2">
@@ -58,10 +61,13 @@ const IndexPage = () => (
                   </Link>
                 </div>
               </div>
-              <div data-aos="fade-left" className="col-sm-6 col-md-4 col-lg-3 px-4">
+              <div
+                data-aos="fade-left"
+                className="col-sm-6 col-md-4 col-lg-3 px-4"
+              >
                 <img
                   className="img-fluid w-100 rounded"
-                  src={withPrefix("img/home/REGIONAL-Thumbnail.jpg")}
+                  src={withPrefix('img/home/REGIONAL-Thumbnail.jpg')}
                   alt="Regional Commercial Flight"
                 />
                 <div className="gris d-flex flex-column align-items-end p-2">
@@ -113,7 +119,7 @@ const IndexPage = () => (
           <div className="col-md-6 p-0" style={{ overflow: 'hidden' }}>
             <img
               className="img-fluid w-100"
-              src={withPrefix("img/home/Home-THE-COMPANY.jpg")}
+              src={withPrefix('img/home/Home-THE-COMPANY.jpg')}
               alt=""
             />
           </div>
