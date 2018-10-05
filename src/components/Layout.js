@@ -8,6 +8,8 @@ import Footer from './Footer'
 // import './layout.css'
 import './css/bootstrap.css'
 import './css/roraima.css'
+import "../../node_modules/aos/dist/aos.css"
+
 // import SiteScripts from './SiteScripts'
 
 // import './js/fontawesome-all.min.js'

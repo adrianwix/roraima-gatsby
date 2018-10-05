@@ -16,10 +16,12 @@ const Careers = () => (
         </div>
 
         <div className="container">
-          <h2 className="animated fadeInLeft">CAREERS</h2>
+          <h2 data-aos="fade-left" className="animated fadeInLeft">
+            CAREERS
+          </h2>
           <div className="separador" />
 
-          <p className="text-center p">
+          <p data-aos="fade-left" className="text-center p">
             Welcome to the Roraima Airlines Careers Seccion. Virtual Careers are
             volunteer staff opportunities at Roraima Airlines. There is no
             compensation of any kind, nor is an employer-employee relationship
@@ -29,7 +31,7 @@ const Careers = () => (
           </p>
           <br />
 
-          <p className="text-center p">
+          <p data-aos="fade-left" className="text-center p">
             Roraima Airlines looks for the best and most qualified members of
             the flight simulation and aviation communities to join its staff and
             virtual pilot core. This website is updated consistently and new
@@ -40,68 +42,66 @@ const Careers = () => (
            * @todo Check why I used doble <a> for image links
            */}
           <div className="row">
-            <div className="col-xs-12 col-md-4">
+            <div data-aos="fade-left" className="col-xs-12 col-md-4">
               <div className="centrar">
-                <a href="#">
-                  <Link to="/roraima-group/">
-                    <img
-                      className="w-100 img-fluid"
-                      src={withPrefix('img/careers/RORAIMAGROUP.jpg')}
-                      alt="Roraima Group"
-                    />
-                  </Link>
-                </a>
+                <Link to="/roraima-group/">
+                  <img
+                    className="w-100 img-fluid"
+                    src={withPrefix('img/careers/RORAIMAGROUP.jpg')}
+                    alt="Roraima Group"
+                  />
+                </Link>
               </div>
               <div className="centrar">
-                <a href="#">
-                  <a href="http://globalonealliance.com/" rel="noopener noreferrer" target="_blank">
-                    <img
-                      className="w-100"
-                      src={withPrefix('img/careers/GLOBALONE.jpg')}
-                      alt="GlobalOne"
-                    />
-                  </a>
-                </a>
-              </div>
-            </div>
-
-            <div className="col-xs-12 col-md-4">
-              <div className="centrar">
-                <a href="#">
-                  <Link to="/roraima-cargo/">
-                    <img
-                      className="w-100"
-                      src={withPrefix('img/careers/RORAIMACARGO.jpg')}
-                      alt="Roraima Cargo"
-                    />
-                  </Link>
-                </a>
-              </div>
-              <div className="centrar">
-                <a href="#">
-                  <Link to="/fundaroraima/">
-                    <img
-                      className="w-100"
-                      src={withPrefix('img/careers/FUNDARORAIMA.jpg')}
-                      alt="FundaRoraima"
-                    />
-                  </Link>
-                </a>
-              </div>
-              <div className="centrar">
-                <a href="#">
-                  <a href="http://www.vatsur.org/" rel="noopener noreferrer" target="_blank">
-                    <img
-                      className="w-100"
-                      src={withPrefix('img/careers/VATSUR.jpg')}
-                      alt="VATSUR"
-                    />
-                  </a>
+                <a
+                  href="http://globalonealliance.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    className="w-100"
+                    src={withPrefix('img/careers/GLOBALONE.jpg')}
+                    alt="GlobalOne"
+                  />
                 </a>
               </div>
             </div>
 
-            <div className="col-xs-12 col-md-4">
+            <div data-aos="fade-left" className="col-xs-12 col-md-4">
+              <div className="centrar">
+                <Link to="/roraima-cargo/">
+                  <img
+                    className="w-100"
+                    src={withPrefix('img/careers/RORAIMACARGO.jpg')}
+                    alt="Roraima Cargo"
+                  />
+                </Link>
+              </div>
+              <div className="centrar">
+                <Link to="/fundaroraima/">
+                  <img
+                    className="w-100"
+                    src={withPrefix('img/careers/FUNDARORAIMA.jpg')}
+                    alt="FundaRoraima"
+                  />
+                </Link>
+              </div>
+              <div className="centrar">
+                <a
+                  href="http://www.vatsur.org/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    className="w-100"
+                    src={withPrefix('img/careers/VATSUR.jpg')}
+                    alt="VATSUR"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div data-aos="fade-left" className="col-xs-12 col-md-4">
               <div className="centrar">
                 <Link to="/tucan-airways/">
                   <img
@@ -127,9 +127,9 @@ const Careers = () => (
             <div className="col px-5 text-center">
               <hr className="mb-5" />
               <Link to="/joinus/">
-                <h5 className="animated fadeInLeft">JOIN US</h5>
+                <h5 data-aos="fade-left">JOIN US</h5>
               </Link>
-              <p className="text-center">
+              <p data-aos="fade-left" className="text-center">
                 If you want to fly with excellence and professionalism, come and
                 join us to experience the realism that we ensure to offer to the
                 pilots that choose to fly with us to a diversity of

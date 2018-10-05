@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link, withPrefix } from 'gatsby'
 
 import Layout from '../components/layout'
 
@@ -9,14 +9,14 @@ const IndexPage = () => (
       <div className="container-fluid">
         <div className="cover autoh">
           <img
-            className="logo animated fadeIn"
-            src="img/home/welcome.png"
+            className="logo"
+            src={withPrefix("img/home/welcome.png")}
             alt="Roraima"
           />
           <div className="d-block text-center">
-            <a href="#services">
+            <a href={withPrefix("#services")}>
               <i
-                className="fas fa-angle-down fa-5x animated fadeIn"
+                className="fas fa-angle-down fa-5x"
                 style={{ color: 'white' }}
               />
             </a>
@@ -35,10 +35,10 @@ const IndexPage = () => (
             </div>
 
             <div className="row pb-3 mb-4 justify-content-center">
-              <div className="col-sm-6 col-md-4 col-lg-3 px-4">
+              <div data-aos="fade-left" className="col-sm-6 col-md-4 col-lg-3 px-4">
                 <img
                   className="img-fluid w-100 rounded"
-                  src="img\home\INTERNATIONAL-Thumbnail.jpg"
+                  src={withPrefix("img/home/INTERNATIONAL-Thumbnail.jpg")}
                   alt="International Commercial Flight"
                 />
                 <div className="gris d-flex flex-column align-items-end p-2">
@@ -51,17 +51,17 @@ const IndexPage = () => (
                     take place in different countries.
                   </p>
                   <Link
-                    className="btn btn-outline-black btn-sm hidebtn mt-auto animated fadeInLeft"
+                    className="btn btn-outline-black btn-sm hidebtn mt-auto"
                     to="/internationalTimetable/"
                   >
                     Timetables
                   </Link>
                 </div>
               </div>
-              <div className="col-sm-6 col-md-4 col-lg-3 px-4">
+              <div data-aos="fade-left" className="col-sm-6 col-md-4 col-lg-3 px-4">
                 <img
                   className="img-fluid w-100 rounded"
-                  src="img\home\REGIONAL-Thumbnail.jpg"
+                  src={withPrefix("img/home/REGIONAL-Thumbnail.jpg")}
                   alt="Regional Commercial Flight"
                 />
                 <div className="gris d-flex flex-column align-items-end p-2">
@@ -75,7 +75,7 @@ const IndexPage = () => (
                     country.
                   </p>
                   <Link
-                    className="btn btn-outline-black btn-sm hidebtn mt-auto animated fadeInLeft"
+                    className="btn btn-outline-black btn-sm hidebtn mt-auto"
                     to="/regionalTimetable/"
                   >
                     Timetables
@@ -88,11 +88,12 @@ const IndexPage = () => (
 
         <div className="row autoh" style={{ background: '#F7F7F7' }}>
           <div className="col-md-6 thecompany">
-            <h2 className="" id="thecompany">
+            <h2 data-aos="fade-left" className="" id="thecompany">
               THE COMPANY
             </h2>
             <div className="separador" />
             <p
+              data-aos="fade-left"
               id="xz"
               className="animated fadeInLeft fadeIn"
               style={{ fontSize: '23px', lineHeight: '30px', color: '#3B3A3A' }}
@@ -112,13 +113,13 @@ const IndexPage = () => (
           <div className="col-md-6 p-0" style={{ overflow: 'hidden' }}>
             <img
               className="img-fluid w-100"
-              src="img/home/Home-THE-COMPANY.jpg"
+              src={withPrefix("img/home/Home-THE-COMPANY.jpg")}
               alt=""
             />
           </div>
         </div>
 
-        <div className="stats row">
+        <div data-aos="fade-left" className="stats row">
           <div className="stat-cell col-sm-6 col-md-3">
             <div className="d-inline-block">
               <p className="big-p text">2013</p>

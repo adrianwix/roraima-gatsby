@@ -28,7 +28,7 @@ const Vatsim = () => (
           <hr style={{ background:"#000" }}/>
 
 
-            <div className="row my-4 justify-content-center">
+            <div data-aos="fade-left" className="row my-4 justify-content-center">
               <div className="col-md-3 col-sm-6 text-center">
                 <h4>JOIN VATSIM</h4>
                 <p>Click <a href="https://www.vatsim.net/join">here</a> to Join VATSIM</p>
@@ -36,7 +36,7 @@ const Vatsim = () => (
             </div>
 
             <div className="stats">
-              <div className="row">
+              <div data-aos="fade-left" className="row">
                 <div className="stat-cell col-sm-6 col-md-3">
                   <div className="d-inline-block">
                     <p className="big-p text">10</p>

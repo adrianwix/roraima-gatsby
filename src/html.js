@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { withPrefix } from 'gatsby'
+import { withPrefix } from "gatsby"
 
 export default class HTML extends React.Component {
   render() {
@@ -28,6 +28,18 @@ export default class HTML extends React.Component {
           <script src={withPrefix("js/fontawesome-all.min.js")} charSet="utf-8"/>
           <script src={withPrefix("js/bootstrap.js")} charSet="utf-8"/>
           <script src={withPrefix("js/roraima.js")} charSet="utf-8"/>
+          <script src={withPrefix("js/aos.js")} charSet="utf-8"/>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            AOS.init({
+              offset: 0,
+              once: true
+            });
+            window.addEventListener('load', AOS.refresh);
+        `,
+            }}
+          />
         </body>
       </html>
     )

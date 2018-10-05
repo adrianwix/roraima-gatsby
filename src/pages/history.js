@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities,no-irregular-whitespace */
 import React from 'react'
 import { Link, withPrefix } from 'gatsby'
 
@@ -14,12 +15,12 @@ const History = () => (
 
         <div className="container">
 
-          <h2 className="mt-4  animated fadeInLeft">HISTORY</h2>
+          <h2 className="mt-4 ">HISTORY</h2>
           <div className="separador"/>
 
           <div className="row">
             <div className="col-md-6">
-              <p className="text-justify">
+              <p data-aos="fade-left" className="text-justify">
                 Everything began in a normal day of September, 2013, I was in the middle of a long flight from SVMI to
                 SCEL, there was still a very long distance to go, I believe it was with a LAN Airlines Boeing 787; that
                 was when suddenly a question came to my mind, is there any way I can personalize the aircraft I use to
@@ -54,14 +55,14 @@ const History = () => (
 
             <div className="col-md-6">
               <img className="img-fluid w-100" src={withPrefix("img/History.jpg")} alt=""/>
-                <p className="text-right mt-4"><strong>Special Thanks to:</strong></p>
-                <p className="text-right">​Valeria Fernandez, Andres Yepes, Paola Mottola, Octavio Gomez, Samuel Garcia,
+                <p data-aos="fade-left" className="text-right mt-4"><strong>Special Thanks to:</strong></p>
+                <p data-aos="fade-left" className="text-right">​Valeria Fernandez, Andres Yepes, Paola Mottola, Octavio Gomez, Samuel Garcia,
                   Valeska Realza, Francisco Cernadas, Juan Pablo Villar, Jose Angel Dos Reis, Christiam Campoverde,
                   Jesus Fuentes, Eric Basalo, Ricardo Pekelharing, Corina Meyer, Moises Moreno, Matias Campos, Alberto
                   Gonzalez,
                   Gilberto Guerra, Carlos Garcia, Adrian Wix, Mahmoud Fadli, Remington Box, Lukasz Musial, Sher Ming,
                   Andrew Johnson and Chris Attheramp.</p>
-                <p className="text-right"><strong>For all the support they provided to help Roraima become the
+                <p data-aos="fade-left" className="text-right"><strong>For all the support they provided to help Roraima become the
                   best.</strong></p>
             </div>
 

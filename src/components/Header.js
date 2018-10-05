@@ -53,13 +53,13 @@ class Header extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem
-                    href="/regionalTimetable"
+                    href={withPrefix("/regionalTimetable/")}
                     className="dropdown-item text-center"
                   >
                     REGIONAL
                   </DropdownItem>
                   <DropdownItem
-                    href="/internationalTimetable/"
+                    href={withPrefix("/internationalTimetable/")}
                     className="dropdown-item text-center"
                   >
                     INTERNATIONAL
@@ -72,37 +72,37 @@ class Header extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem
-                    href="/history/"
+                    href={withPrefix("/history/")}
                     className="dropdown-item text-center"
                   >
                     HISTORY
                   </DropdownItem>
                   <DropdownItem
-                    href="/staff/"
+                    href={withPrefix("/staff/")}
                     className="dropdown-item text-center"
                   >
                     STAFF
                   </DropdownItem>
                   <DropdownItem
-                    href="/fleet/"
+                    href={withPrefix("/fleet/")}
                     className="dropdown-item text-center"
                   >
                     FLEET
                   </DropdownItem>
                   <DropdownItem
-                    href="/globalone/"
+                    href={withPrefix("/globalone/")}
                     className="dropdown-item text-center"
                   >
                     GLOBALONE
                   </DropdownItem>
                   <DropdownItem
-                    href="/vatsim/"
+                    href={withPrefix("/vatsim/")}
                     className="dropdown-item text-center"
                   >
                     VATSIM
                   </DropdownItem>
                   <DropdownItem
-                    href="/fundaroraima/"
+                    href={withPrefix("/fundaroraima/")}
                     className="dropdown-item text-center"
                   >
                     FUNDAROARAIMA
@@ -115,13 +115,13 @@ class Header extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem
-                    href="/joinus/"
+                    href={withPrefix("/joinus/")}
                     className="dropdown-item text-center"
                   >
                     JOIN US
                   </DropdownItem>
                   <DropdownItem
-                    href="/careers/"
+                    href={withPrefix("/careers/")}
                     className="dropdown-item text-center"
                   >
                     CAREERS
@@ -134,19 +134,19 @@ class Header extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem
-                    href="/roraima-group/"
+                    href={withPrefix("/roraima-group/")}
                     className="dropdown-item text-center"
                   >
                     ABOUT US
                   </DropdownItem>
                   <DropdownItem
-                    href="/tucan-airway/"
+                    href={withPrefix("/tucan-airways/")}
                     className="dropdown-item text-center"
                   >
                     TUCAN AIRWAYS
                   </DropdownItem>
                   <DropdownItem
-                    href="/roraima-cargo/"
+                    href={withPrefix("/roraima-cargo/")}
                     className="dropdown-item text-center"
                   >
                     RORAIMA CARGO
@@ -154,7 +154,7 @@ class Header extends React.Component {
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem className={"text-center"}>
-                <NavLink href="/contact/">CONTACT</NavLink>
+                <NavLink href={withPrefix("/contact/")}>CONTACT</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

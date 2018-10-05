@@ -15,7 +15,7 @@ const Contact = () => (
 
         <div className="container">
 
-          <h2 className="mt-4 animated fadeInLeft">CONTACT</h2>
+          <h2 className="mt-4">CONTACT</h2>
           <div className="separador"/>
 
           <div className="row">

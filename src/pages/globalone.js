@@ -16,12 +16,12 @@ const GlobalOne = () => (
         </div>
 
         <div className="container">
-          <h2 className="mt-2 animated fadeInLeft">
+          <h2 data-aos="fade-left" className="mt-2">
             A PROUD GLOBALONE ALLIANCE MEMBER
           </h2>
           <div className="separador" />
 
-          <p className="text-center p">
+          <p data-aos="fade-left" className="text-center p">
             The GlobalOne Alliance is the worlds most successful Virtual Airline
             Alliance and the largest active codesharing community on Vatsim.
             Established by Arabian Airlines in 2006, GlobalOne aims to connect
@@ -36,14 +36,14 @@ const GlobalOne = () => (
           </p>
           <br />
 
-          <h3 className="text-center">PARTNER AIRLINES</h3>
+          <h3 data-aos="fade-left" className="text-center">PARTNER AIRLINES</h3>
           <div className="separador mx-auto" />
 
           <div
             className="row justify-content-center"
             style={{ margin: '6rem 0' }}
           >
-            <div className="col-xs-12 col-sm-6 col-md-3 my-4">
+            <div data-aos="fade-left" className="col-xs-12 col-sm-6 col-md-3 my-4">
               <a
                 href="http://arabian.aero/"
                 rel="noopener noreferrer"
@@ -56,7 +56,7 @@ const GlobalOne = () => (
                 />
               </a>
             </div>
-            <div className="col-xs-12 col-sm-6 col-md-3 my-4">
+            <div data-aos="fade-left" className="col-xs-12 col-sm-6 col-md-3 my-4">
               <a
                 href="http://www.flycubev.com/coming-soon/"
                 rel="noopener noreferrer"
@@ -69,7 +69,7 @@ const GlobalOne = () => (
                 />
               </a>
             </div>
-            <div className="col-xs-12 col-sm-6 col-md-3 my-4">
+            <div data-aos="fade-left" className="col-xs-12 col-sm-6 col-md-3 my-4">
               <a
                 href="http://www.flyeurobelgian.com/"
                 rel="noopener noreferrer"
@@ -82,7 +82,7 @@ const GlobalOne = () => (
                 />
               </a>
             </div>
-            <div className="col-xs-12 col-sm-6 col-md-3 my-4">
+            <div data-aos="fade-left" className="col-xs-12 col-sm-6 col-md-3 my-4">
               <a
                 href="https://www.fly-ocean.net/INT/"
                 rel="noopener noreferrer"
@@ -95,7 +95,7 @@ const GlobalOne = () => (
                 />
               </a>
             </div>
-            <div className="col-xs-12 col-sm-6 col-md-3 my-4">
+            <div data-aos="fade-left" className="col-xs-12 col-sm-6 col-md-3 my-4">
               <a
                 href="http://flycloud9.org/airline.php"
                 rel="noopener noreferrer"
@@ -108,7 +108,7 @@ const GlobalOne = () => (
                 />
               </a>
             </div>
-            <div className="col-xs-12 col-sm-6 col-md-3 my-4">
+            <div data-aos="fade-left" className="col-xs-12 col-sm-6 col-md-3 my-4">
               <a
                 href="https://ariaairways.org/home/"
                 rel="noopener noreferrer"

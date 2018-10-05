@@ -22,7 +22,7 @@ const TucanAirways = () => (
             </div>
           </div>
 
-          <div className="row p-4">
+          <div data-aos="fade-left" className="row p-4">
             <div className="col text-center">
               <p className="p">Tucan Airways is a partnered Low-Cost Airline member of the Roraima Group founded by
                 Roraima
@@ -35,15 +35,15 @@ const TucanAirways = () => (
             </div>
           </div>
 
-          <div className="row mt-3">
+          <div data-aos="fade-left" className="row mt-3">
             <div className="col">
               <h2 className="animated fadeInLeft">TUCAN FLEET</h2>
               <div className="separador-tucan"/>
             </div>
           </div>
 
-          <h3 className="text-center mth3">BOEING 737-700 NG</h3>
-          <div className="row mt-4">
+          <h3 data-aos="fade-left" className="text-center mth3">BOEING 737-700 NG</h3>
+          <div data-aos="fade-left" className="row mt-4">
             <div className="col-md-8">
 
               <div id="carousel1" className="carousel slide" data-interval="false" data-ride="carousel">
@@ -73,7 +73,7 @@ const TucanAirways = () => (
               </div>
 
             </div>
-            <div className="col-md-4 text-center animated fadeInRight">
+            <div className="col-md-4 text-center">
               <div className="specs-tucan">
                 <h4 className="text-center"><strong>737-700 SPECS</strong></h4><br />
                 <p><strong>MANUFACTURER:</strong></p><br />
@@ -93,8 +93,8 @@ const TucanAirways = () => (
 
           </div>
 
-          <h3 className="text-center mth3">BOMBARDIER Q400</h3>
-          <div className="row mt-4">
+          <h3 data-aos="fade-left" className="text-center mth3">BOMBARDIER Q400</h3>
+          <div data-aos="fade-left" className="row mt-4">
 
             <div className="col-md-8">
 
@@ -117,7 +117,7 @@ const TucanAirways = () => (
 
             </div>
 
-            <div className="col-md-4 text-center animated fadeInRight">
+            <div className="col-md-4 text-center">
               <div className="specs-tucan">
                 <h4 className="text-center"><strong>Q400 SPECS</strong></h4><br />
                 <p><strong>MANUFACTURER:</strong></p><br />
@@ -141,9 +141,9 @@ const TucanAirways = () => (
           <div className="row justify-content-center rowtucanlogo">
 
             <div className="col-md-7 text-center">
-              <img className="img-fluid w-100" src={withPrefix("img/tucan-airways/TUCANLOGOBLUE.png")} alt="Tucan Airways Logo"/>
-                <p className="p mt-2 animated fadeInLeft">Tucan Airways Operations and Timetables </p>
-                <h5 className="animated fadeInLeft">Coming Soon</h5>
+              <img data-aos="fade-left" className="img-fluid w-100" src={withPrefix("img/tucan-airways/TUCANLOGOBLUE.png")} alt="Tucan Airways Logo"/>
+                <p data-aos="fade-left" className="p mt-2">Tucan Airways Operations and Timetables </p>
+                <h5 data-aos="fade-left" className="animated fadeInLeft">Coming Soon</h5>
             </div>
 
           </div>

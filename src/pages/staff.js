@@ -16,7 +16,7 @@ const Staff = () => (
         <div className="container">
           <div className="row">
             <div className="col">
-              <h2 className="mt-4 animated fadeInLeft">STAFF</h2>
+              <h2 className="mt-4">STAFF</h2>
               <div className="separador"/>
               <h3 className="text-center">EXECUTIVE TEAM</h3>
               <p className="text-center mx-auto">The Roraima Airlines executive team comprises of highly motivated
@@ -26,7 +26,7 @@ const Staff = () => (
             </div>
           </div>
 
-          <div className="row">
+          <div data-aos="fade-left" className="row">
             <div className="col-md-3 d-flex justify-content-center">
               <img className="img-fluid" src={withPrefix("img/staff/CEO.png")} alt="CHIEF EXECUTIVE OFFICER"/>
             </div>
@@ -42,7 +42,7 @@ const Staff = () => (
             </div>
           </div>
 
-          <div className="row">
+          <div data-aos="fade-left" className="row">
             <div className="col-md-3 d-flex justify-content-center">
               <img className="img-fluid" src={withPrefix("img/staff/COO.png")} alt="CHIEF OPERATIONS OFFICER"/>
             </div>
@@ -61,7 +61,7 @@ const Staff = () => (
             </div>
           </div>
 
-          <div className="row">
+          <div data-aos="fade-left" className="row">
             <div className="col-md-3 d-flex justify-content-center">
               <img className="img-fluid" src={withPrefix("img/staff/CFO.png")} alt="CHIEF FINACIAL OFFICER"/>
             </div>
@@ -80,7 +80,7 @@ const Staff = () => (
             </div>
           </div>
 
-          <div className="row">
+          <div data-aos="fade-left" className="row">
             <div className="col-md-3 d-flex justify-content-center">
               <img className="img-fluid" src={withPrefix("img/staff/CMO.png")} alt="CHIEF MARKETING OFFICER"/>
             </div>
@@ -96,7 +96,7 @@ const Staff = () => (
             </div>
           </div>
 
-          <div className="row">
+          <div data-aos="fade-left" className="row">
             <div className="col-md-3 d-flex justify-content-center">
               <img className="img-fluid" src={withPrefix("img/staff/CTO.png")} alt="CHIEF TECHNOLOGY OFFICER"/>
             </div>
@@ -112,7 +112,7 @@ const Staff = () => (
             </div>
           </div>
 
-          <div className="row">
+          <div data-aos="fade-left" className="row">
             <div className="col-md-3 d-flex justify-content-center">
               <img className="img-fluid" src={withPrefix("img/staff/DHR.png")} alt="CHIEF HUMAN RESOURCES OFFICER"/>
             </div>
@@ -126,7 +126,7 @@ const Staff = () => (
             </div>
           </div>
 
-          <div className="row">
+          <div data-aos="fade-left" className="row">
             <div className="col-md-3 d-flex justify-content-center">
               <img className="img-fluid" src={withPrefix("img/staff/CSO.png")} alt="CHIEF SECURITY OFFICER"/>
             </div>
@@ -142,7 +142,7 @@ const Staff = () => (
             </div>
           </div>
 
-          <div className="row">
+          <div data-aos="fade-left" className="row">
             <div className="col">
               <h3 className="text-center">OPERATIONS TEAM</h3>
               <p className="text-center mx-auto">The Operations Team, or Ops. For short, comprises of real world pilots
@@ -150,7 +150,7 @@ const Staff = () => (
             </div>
           </div>
 
-          <div className="row">
+          <div data-aos="fade-left" className="row">
             <div className="col-md-3 d-flex justify-content-center">
               <img className="img-fluid" src={withPrefix("img/staff/logo-DT.png")} alt="BOEING 737 CHIEF PILOT"/>
             </div>
@@ -169,7 +169,7 @@ const Staff = () => (
             </div>
           </div>
 
-          <div className="row">
+          <div data-aos="fade-left" className="row">
             <div className="col">
               <h3 className="text-center">DEVELOPMENT TEAM</h3>
               <p className="text-center mx-auto">The Development Team of Roraima Airlines is group of profesional and
@@ -180,7 +180,7 @@ const Staff = () => (
             </div>
           </div>
 
-          <div className="row">
+          <div data-aos="fade-left" className="row">
             <div className="col-md-3 d-flex justify-content-center">
               <img className="img-fluid" src={withPrefix("img/staff/logo-DT.png")} alt="WEB DEVELOPER"/>
             </div>
@@ -199,7 +199,7 @@ const Staff = () => (
             </div>
           </div>
 
-          <div className="row">
+          <div data-aos="fade-left" className="row">
             <div className="col-md-3 d-flex justify-content-center">
               <img className="img-fluid" src={withPrefix("img/staff/logo-DT.png")} alt="PROJECT DEVELOPER"/>
             </div>

@@ -14,15 +14,15 @@ const regionalTimetable = () => (
 
         <div className="container">
 
-          <h2 className="mt-4 animated fadeInLeft">REGIONAL TIMETABLES</h2>
+          <h2 className="mt-4">REGIONAL TIMETABLES</h2>
           <div className="separador" />
 
-          <table className="table text-center animated fadeInLeft">
+          <table className="table text-center">
             <thead>
-            <tr style={{ background: '#900B0B', color: 'white' }}>
+            <tr data-aos="fade-left" style={{ background: '#900B0B', color: 'white' }}>
               <th colSpan="5">Regional Flights from Caracas - CCS</th>
             </tr>
-            <tr style={{ background: '#3E3E3E', color: 'white' }}>
+            <tr data-aos="fade-left" style={{ background: '#3E3E3E', color: 'white' }}>
               <th>To</th>
               <th>Flight Nº</th>
               <th>Days</th>
@@ -30,7 +30,7 @@ const regionalTimetable = () => (
               <th>ETA</th>
             </tr>
             </thead>
-            <tbody style={{ background: '#BFBFBF', color: '#666464' }}>
+            <tbody data-aos="fade-left" style={{ background: '#BFBFBF', color: '#666464' }}>
             <tr>
               <td>Porlamar</td>
               <td>RX710</td>
@@ -62,12 +62,12 @@ const regionalTimetable = () => (
             </tbody>
           </table>
 
-          <table className="table text-center animated fadeInLeft">
+          <table className="table text-center">
             <thead>
-            <tr style={{ background: '#900B0B', color: 'white' }}>
+            <tr data-aos="fade-left" style={{ background: '#900B0B', color: 'white' }}>
               <th colSpan="5">Regional Flights from Porlamar - PMV</th>
             </tr>
-            <tr style={{ background: '#3E3E3E', color: 'white' }}>
+            <tr data-aos="fade-left" style={{ background: '#3E3E3E', color: 'white' }}>
               <th>To</th>
               <th>Flight Nº</th>
               <th>Days</th>
@@ -75,7 +75,7 @@ const regionalTimetable = () => (
               <th>ETA</th>
             </tr>
             </thead>
-            <tbody style={{ background: '#BFBFBF', color: '#666464' }}>
+            <tbody data-aos="fade-left" style={{ background: '#BFBFBF', color: '#666464' }}>
             <tr>
               <td>Caracas</td>
               <td>RX711</td>
@@ -86,12 +86,12 @@ const regionalTimetable = () => (
             </tbody>
           </table>
 
-          <table className="table text-center animated fadeInLeft">
+          <table className="table text-center">
             <thead>
-            <tr style={{ background: '#900B0B', color: 'white' }}>
+            <tr data-aos="fade-left" style={{ background: '#900B0B', color: 'white' }}>
               <th colSpan="5">Regional Flights from Maracaibo - MAR</th>
             </tr>
-            <tr style={{ background: '#3E3E3E', color: 'white' }}>
+            <tr data-aos="fade-left" style={{ background: '#3E3E3E', color: 'white' }}>
               <th>To</th>
               <th>Flight Nº</th>
               <th>Days</th>
@@ -99,7 +99,7 @@ const regionalTimetable = () => (
               <th>ETA</th>
             </tr>
             </thead>
-            <tbody style={{ background: '#BFBFBF', color: '#666464' }}>
+            <tbody data-aos="fade-left" style={{ background: '#BFBFBF', color: '#666464' }}>
             <tr>
               <td>Caracas</td>
               <td>RX751</td>
@@ -110,12 +110,12 @@ const regionalTimetable = () => (
             </tbody>
           </table>
 
-          <table className="table text-center animated fadeInLeft">
+          <table className="table text-center">
             <thead>
-            <tr style={{ background: '#900B0B', color: 'white' }}>
+            <tr data-aos="fade-left" style={{ background: '#900B0B', color: 'white' }}>
               <th colSpan="5">Regional Flights from Canaima - CAJ</th>
             </tr>
-            <tr style={{ background: '#3E3E3E', color: 'white' }}>
+            <tr data-aos="fade-left" style={{ background: '#3E3E3E', color: 'white' }}>
               <th>To</th>
               <th>Flight Nº</th>
               <th>Days</th>
@@ -123,7 +123,7 @@ const regionalTimetable = () => (
               <th>ETA</th>
             </tr>
             </thead>
-            <tbody style={{ background: '#BFBFBF', color: '#666464' }}>
+            <tbody data-aos="fade-left" style={{ background: '#BFBFBF', color: '#666464' }}>
             <tr>
               <td>Caracas</td>
               <td>RX701</td>
@@ -134,12 +134,12 @@ const regionalTimetable = () => (
             </tbody>
           </table>
 
-          <table className="table text-center animated fadeInLeft">
+          <table className="table text-center">
             <thead>
-            <tr style={{ background: '#900B0B', color: 'white' }}>
+            <tr data-aos="fade-left" style={{ background: '#900B0B', color: 'white' }}>
               <th colSpan="5">Regional Flights from Barinas - BNS</th>
             </tr>
-            <tr style={{ background: '#3E3E3E', color: 'white' }}>
+            <tr data-aos="fade-left" style={{ background: '#3E3E3E', color: 'white' }}>
               <th>To</th>
               <th>Flight Nº</th>
               <th>Days</th>
@@ -147,7 +147,7 @@ const regionalTimetable = () => (
               <th>ETA</th>
             </tr>
             </thead>
-            <tbody style={{ background: '#BFBFBF', color: '#666464' }}>
+            <tbody data-aos="fade-left" style={{ background: '#BFBFBF', color: '#666464' }}>
             <tr>
               <td>Caracas</td>
               <td>RX721</td>

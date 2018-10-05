@@ -15,12 +15,12 @@ const FundaRoraima = () => (
 
         <div className="container">
 
-          <h2 className="mt-4 animated fadeInLeft">FUNDARORAIMA</h2>
+          <h2 data-aos="fade-left" className="mt-4">FUNDARORAIMA</h2>
           <div className="separador"/>
 
           <div className="row">
             <div className="col">
-              <p className="text-center px-4" style={{ fontSize: "1.5em" }}>
+              <p data-aos="fade-left" className="text-center px-4" style={{ fontSize: "1.5em" }}>
                 FundaRoraima is environmental ONG that seeks the conservation of nature and wildlife through out the
                 help and collaboration for other environmental ONG's, setting the environmentalist side of Roraima
                 Airline and to fulfill our commitment with Nature
