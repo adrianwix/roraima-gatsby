@@ -1,11 +1,11 @@
 import React from 'react'
 import { withPrefix } from 'gatsby'
 
-export default () => {
+const FooterLinks = () => {
   return (
     <div className="row justify-content-md-center">
       <div className="col-12 col-md-auto borderR">
-        <a href="home.php">
+        <a href={withPrefix("/")}>
           <img src={withPrefix('img/roraimafooter.png')} alt="Roraima" />
         </a>
         <p>
@@ -23,49 +23,49 @@ export default () => {
         </p>
       </div>
       <div className="col-sm-4 col-lg-2">
-        <a href="home.php#services">
+        <a href={withPrefix("/#services/")}>
           <h3>SERVICES</h3>
         </a>
-        <a href="regionalTimetable.php">Regional Timetables</a>
+        <a href={withPrefix("/regionalTimetable/")}>Regional Timetables</a>
         <br />
-        <a href="internationalTimetable.php">International Timetables</a>
+        <a href={withPrefix("/internationalTimetable/")}>International Timetables</a>
         <br />
       </div>
 
       <div className="col-sm-4 col-lg-2">
-        <a href="home.php#thecompany">
+        <a href={withPrefix("/#thecompany/")}>
           <h3>THE COMPANY</h3>
         </a>
-        <a href="history.php">History</a>
+        <a href={withPrefix("/history/")}>History</a>
         <br />
-        <a href="staff.php">Staff</a>
+        <a href={withPrefix("/staff/")}>Staff</a>
         <br />
-        <a href="fleet.php">Fleet</a>
+        <a href={withPrefix("/fleet/")}>Fleet</a>
         <br />
-        <a href="globalone.php">GlobalOne</a>
+        <a href={withPrefix("/globalone/")}>GlobalOne</a>
         <br />
-        <a href="vatsim.php">Vatsim</a>
+        <a href={withPrefix("/vatsim/")}>Vatsim</a>
         <br />
-        <a href="fundaroraima.php">Fundaroraima</a>
+        <a href={withPrefix("/fundaroraima/")}>Fundaroraima</a>
         <br />
       </div>
 
       <div className="col-sm-4 col-lg-2 borderR">
-        <a href="careers.php">
+        <a href={withPrefix("/careers/")}>
           <h3>CAREERS</h3>
         </a>
-        <a href="joinus.php">Join Us</a>
+        <a href={withPrefix("/joinus/")}>Join Us</a>
         <br />
         <br />
-        <a href="roraima-group.php">
+        <a href={withPrefix("/roraima-group/")}>
           <h3>RORAIMA GROUP</h3>
         </a>
-        <a href="tucan-airways.php">Tucan Airways</a>
+        <a href={withPrefix("/tucan-airways/")}>Tucan Airways</a>
         <br />
-        <a href="roraima-cargo.php">Roraima Cargo</a>
+        <a href={withPrefix("/roraima-cargo/")}>Roraima Cargo</a>
         <br />
         <br />
-        <a href="contact.php">
+        <a href={withPrefix("/contact/")}>
           <h3>CONTACT</h3>
         </a>
         <a href="https://www.instagram.com/flyroraima_va/?hl=es">Instagram</a>
@@ -75,10 +75,12 @@ export default () => {
         <a href="https://www.facebook.com/RoraimaVA/">Facebook</a>
         <br />
         <br />
-        <a href="privacy.php">
+        <a href={withPrefix("/privacy/")}>
           <h3>PRIVACY AND POLICY</h3>
         </a>
       </div>
     </div>
   )
 }
+
+export default FooterLinks
