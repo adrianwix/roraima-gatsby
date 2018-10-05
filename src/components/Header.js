@@ -45,7 +45,7 @@ class Header extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="navbar-nav ml-auto">
               <NavItem className={"text-center"}>
-                <NavLink href="/">HOME</NavLink>
+                <NavLink href={withPrefix("/")}>HOME</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle className="nav-link text-center" nav caret>

@@ -18,5 +18,5 @@ module.exports = {
     },
     'gatsby-plugin-offline',
   ],
-  pathPrefix: '/',
+  pathPrefix: '/roraima-gatsby/',
 }
