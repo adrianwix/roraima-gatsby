@@ -136,7 +136,7 @@ const IndexPage = () => (
 
           <div className="stat-cell col-sm-6 col-md-3">
             <div className="d-inline-block">
-              <p className="big-p">ROF</p>
+              <p className="big-p">ROX</p>
               <p className="small-p">Callsing</p>
             </div>
           </div>
